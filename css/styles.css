@@ -1,0 +1,83 @@
+
+.imagen-principal {
+    width: 100vw;         /* Ocupa el 100% del ancho de la ventana del navegador */
+    height: 500px;        /* Ajustá este número: si la querés más corta, poné 200px o 150px */
+    object-fit: cover;    /* CLAVE: Recorta la foto como un fondo para que NO se vea aplastada */
+    object-position: 20% 30%; /* CLAVE: Mueve el enfoque hacia arriba a la izquierda para que se vea bien la chica con la gorra y el sol */
+    display: block;       /* Evita espacios en blanco innecesarios abajo */
+}
+
+body {
+    font-family:  sans-serif;
+    background-color: #f8f9fa; /* Un blanco grisáceo muy sutil para descansar la vista */
+    color: #333333;            /* Gris oscuro para el texto general (mejor que el negro puro) */
+    line-height: 1.6;          /* Espaciado entre líneas para que los párrafos se lean mejor */
+}
+
+/* Contenedor principal para dejar margen a los costados y que el texto no pegue al borde de la pantalla */
+main {
+    max-width: 800px;
+    margin: 40px auto;     /* Centra el contenido y le da espacio arriba/abajo */
+    
+}
+
+/* Título Principal (Tu nombre o bienvenida) */
+h1 {
+    font-size: 2.5rem;     /* Tamaño grande y destacado */
+    color: #2c3e50;        /* Un tono azul oscuro elegante */
+    margin-bottom: 10px;   /* Espacio respecto al subtítulo */
+    font-weight: 700;
+}
+
+/* Subtítulo (Tu presentación breve) */
+h2 {
+    font-size: 1.5rem;
+    color: #7f8c8d;        /* Gris medio para dar jerarquía visual */
+    font-weight: 400;
+    margin-bottom: 30px;   /* Espacio antes de empezar los párrafos */
+}
+
+/* Títulos de las secciones  */
+h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-top: 40px;      /* Separa una sección de la anterior */
+    margin-bottom: 15px;   /* Espacio antes de la lista o el formulario */
+    border-bottom: 2px solid #e2e8f0; /* Una línea sutil divisoria abajo del título */
+    padding-bottom: 5px;
+}
+
+
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #4a5568;       
+    text-align: justify;   
+    }
+
+/* Estilo-listas de intereses */
+ul {
+    padding-left: 20px;    /* Margen izquierdo para los puntitos */
+    margin-bottom: 25px;
+}
+
+ul li {
+    margin-bottom: 8px;    /* Espaciado entre cada ítem de la lista */
+    color: #4a5568;
+}
+
+footer {
+    
+    padding: 20px 0;         /* Le da espacio arriba y abajo al texto */
+    margin-top: 50px;        /* Separa el footer del formulario de contacto */
+    background-color: #1866b4; /* Fondo azul oscuro, combinando con los títulos */
+    color: #ffffff;          /* Texto en blanco para que resalte sobre el fondo */
+    font-size: 0.9rem;       /* Un tamaño de letra un poco más chico y sutil */
+  
+}
+
+footer p {
+    margin: 0;               /* Quita el margen por defecto del párrafo interno */
+    color: #ffffff;          /* Asegura que el texto sea blanco */
+    text-align: center;      /* Refuerza el centrado del párrafo */
+    }
