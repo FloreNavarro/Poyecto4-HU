@@ -2,9 +2,9 @@
 .imagen-principal {
     width: 100vw;         /* Ocupa el 100% del ancho de la ventana del navegador */
     height: 500px;        /* Ajustá este número: si la querés más corta, poné 200px o 150px */
-    object-fit: cover;    /* CLAVE: Recorta la foto como un fondo para que NO se vea aplastada */
-    object-position: 20% 30%; /* CLAVE: Mueve el enfoque hacia arriba a la izquierda para que se vea bien la chica con la gorra y el sol */
-    display: block;       /* Evita espacios en blanco innecesarios abajo */
+    object-fit: cover;   
+    object-position: 20% 30%; 
+  
 }
 
 body {
