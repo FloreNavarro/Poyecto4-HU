@@ -21,7 +21,7 @@ main {
     
 }
 
-/* Título Principal (Tu nombre o bienvenida) */
+/* Título Principal */
 h1 {
     font-size: 2.5rem;     /* Tamaño grande y destacado */
     color: #2c3e50;        /* Un tono azul oscuro elegante */
@@ -29,7 +29,7 @@ h1 {
     font-weight: 700;
 }
 
-/* Subtítulo (Tu presentación breve) */
+/* Subtítulo*/
 h2 {
     font-size: 1.5rem;
     color: #7f8c8d;        /* Gris medio para dar jerarquía visual */
@@ -77,7 +77,6 @@ footer {
 }
 
 footer p {
-    margin: 0;               /* Quita el margen por defecto del párrafo interno */
-    color: #ffffff;          /* Asegura que el texto sea blanco */
+   
     text-align: center;      /* Refuerza el centrado del párrafo */
     }
